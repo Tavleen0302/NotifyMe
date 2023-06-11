@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NotifyMe</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+    <body>
+
+        <div class="contact-form">
+            <h1> Contact Us</h1>
+           <form method="post" action = '/thanks' >
+                <div class = "resize">
+                    <div class = "input-group">
+                        <input type = 'text' name = 'name' id = 'name' autocomplete="off" placeholder=" " required>
+                        <label for ='name'> Your Name</label>
+                    </div>
+    
+                    <div class = "input-group">
+                        <input type = 'text' name = 'number' id = 'number' autocomplete="off" placeholder=" " required>
+                        <label for ='number'> Your Phone Number</label>
+                    </div>
+                </div>
+ 
+                <div class = "input-group">
+                    <input type = 'email' name = 'email' id = 'email' autocomplete="off"placeholder=" " required >
+                    <label for ='email' > Email address </label>
+                </div>
+
+                <div class = "input-group">
+                    <textarea id = 'message'name = 'message' rows = '8' autocomplete = 'off' placeholder=" "required></textarea>
+                    <label for ='message'> Your Message</label>
+                </div>
+                
+                <button type="submit">Submit</button>
+           </form>
+          
+
+        </div>
+        
+    </body>
+</html>
