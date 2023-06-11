@@ -1,5 +1,5 @@
 # NotifyMe 
-This application allows users to set up a page that enables people to contact them. Once this person has contacted you, they get redirected to a thank you page, while you get an automated email with a link of their information. 
+This application allows users to set up a page that enables people to contact them. Once this person has contacted you, they get redirected to a thank you page, while you get an automated email with a link of their information. Many jobs like realtors and people who have clients can use this system to make their lives easier.
 <img width="1436" alt="Screenshot 2023-06-10 at 11 16 51 PM" src="https://github.com/Tavleen0302/NotifyMe/assets/70829396/f29d7fa3-c131-495b-8a12-6f13a3f5d5c7">
 
 Once the person submits they get redirected to this page.
